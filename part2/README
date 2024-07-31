@@ -1,0 +1,8 @@
+CMSC 421 Project 3 Part 2
+Author: Logan Seely
+Email: lz50375@umbc.edu
+Date: 5/7/2023
+
+I approached this using a static 2D char array for the board, a misc device, and a static char buffer for the command. I also use a static integer to track when an illegal move is made. For the CPU move, I created an array of possible moves, generated a random integer, and then used that to pick the move.
+
+For checking who wins, I check after each move is made using an array of scores, where the rows, columns, and two diagonals are represented by each index in it, and a positive score indicates that the player has more X's than the CPU has O's in a row/column/diagonal (and vice versa for a negative score).

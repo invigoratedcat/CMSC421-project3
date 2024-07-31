@@ -1,0 +1,7 @@
+CMSC 421 Project 3 Part 1
+
+This part implements a kernel module called inspiration that when read/opened returns one inspirational quote.
+
+Sources:
+https://www.forbes.com/sites/kevinkruse/2013/05/28/inspirational-quotes/?sh=8f7ac466c7ac
+https://www.goodreads.com/quotes/tag/inspirational
